@@ -1,0 +1,25 @@
+{
+  "name": "dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "pinia": "^2.1.7",
+    "vue": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.4",
+    "@vue/test-utils": "^2.4.6",
+    "happy-dom": "^20.8.9",
+    "jsdom": "^29.0.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.11",
+    "vitest": "^1.6.1",
+    "vue-tsc": "^2.1.0"
+  }
+}
